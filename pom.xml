@@ -15,7 +15,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <azure.functions.maven.plugin.version>1.4.1</azure.functions.maven.plugin.version>
         <azure.functions.java.library.version>1.3.1</azure.functions.java.library.version>
-        <functionAppName>kishazureappfunction</functionAppName>
+        <functionAppName>vikramazureappfunction</functionAppName>
         <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
     </properties>
 
@@ -130,7 +130,7 @@
                     <!-- function app name -->
                     <appName>${functionAppName}</appName>
                     <!-- function app resource group -->
-                    <resourceGroup>Kish-RG</resourceGroup>
+                    <resourceGroup>Vikram-RG</resourceGroup>
                     <!-- function app service plan name -->
                   <!--  <appServicePlanName>java-functions-app-service-plan</appServicePlanName>  --> 
                     <!-- function app region-->
